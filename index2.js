@@ -4,6 +4,14 @@ const { nextISSTimesForMyLocation } = require('./iss_promised');
 
 // see index.js for printPassTimes 
 // copy it from there, or better yet, moduralize and require it in both files
+const printPassTimes = (passTimes) => {
+  
+   
+  
+  // success, print out the deets!
+  console.log(passTimes);
+};
+
 
 // Call 
 nextISSTimesForMyLocation()
